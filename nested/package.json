@@ -1,0 +1,14 @@
+{
+  "name": "nested-husky-gh-actions-poc",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "cd .. && husky install nested/.husky",
+    "pre-commit": "lint-staged"
+  },
+  "author": "dweller23",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}

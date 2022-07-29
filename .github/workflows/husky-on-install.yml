@@ -3,7 +3,7 @@ name: Husky on install
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   proof-of-concept:
